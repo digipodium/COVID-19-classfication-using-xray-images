@@ -1,0 +1,11 @@
+sqlalchemy
+streamlit
+fastai==1.0.61
+pandas
+numpy
+matplotlib
+sns
+pillow
+scikit-learn
+plotly
+opencv
