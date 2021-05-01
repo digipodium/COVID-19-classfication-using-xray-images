@@ -42,7 +42,7 @@ with st.spinner("please wait, while model loads"):
 choice = st.sidebar.selectbox("select option",['intro','classify image','upload new content','manage uploads'])
 
 if choice == 'intro':
-    with open('readme.md') as file:
+    with open('intro.md') as file:
         cols = st.beta_columns(3)
         cols[0].image('images/c.jpeg',use_column_width=True)
         cols[1].image('images/p.png',use_column_width=True)
